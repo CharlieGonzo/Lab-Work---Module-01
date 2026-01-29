@@ -36,10 +36,10 @@ public class Car extends Vehicle{
     public void displayInfo(){
         System.out.println("Car{" +
                 "brand='" + brand + '\'' +
-                ", numberofWheels=" + numberofWheels +
-                ", color='" + color + '\'' +
-                ", engineSize=" + engineSize +
-                ", fuelftype='" + fuelftype + '\'' +
+                ", numberofWheels=" + getNumberofWheels() +
+                ", color='" + getColor() + '\'' +
+                ", engineSize=" + getEngineSize() +
+                ", fuelftype='" + getFuelftype() + '\'' +
                 '}');
     }
 

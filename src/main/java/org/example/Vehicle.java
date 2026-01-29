@@ -7,10 +7,10 @@ package org.example;
  */
 public class Vehicle {
     // Variables
-    int numberofWheels;
-    String color;
-    float engineSize;
-    String fuelftype;
+    private int numberofWheels;
+    private String color;
+    private float engineSize;
+    private String fuelftype;
 
     // Constructor
     public Vehicle(int numberofWheels, String color, float engineSize, String fuelftype) {
