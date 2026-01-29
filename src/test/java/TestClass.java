@@ -36,7 +36,7 @@ public class TestClass {
 
 
     @Test
-    @DisplayName(" Getter methods Test")
+    @DisplayName(" Car Getter methods Test")
     public void testCarGetters() {
         Assertions.assertEquals(4, car.getNumberofWheels());
         Assertions.assertEquals("Blue", car.getColor());
@@ -46,7 +46,7 @@ public class TestClass {
     }
 
     @Test
-    @DisplayName(" Setter methods Test")
+    @DisplayName(" Car Setter methods Test")
     public void testCarSetters() {
         car.setNumberofWheels(3);
         car.setBrand("Honda");

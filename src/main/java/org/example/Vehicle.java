@@ -1,11 +1,18 @@
 package org.example;
 
+/**
+ * @author Charles Gonzalez
+ * Vehicle class holds the basic information you will need for any type of vehicle. Mainly
+ * to be used for inhertance purposes.
+ */
 public class Vehicle {
+    // Variables
     int numberofWheels;
     String color;
     float engineSize;
     String fuelftype;
 
+    // Constructor
     public Vehicle(int numberofWheels, String color, float engineSize, String fuelftype) {
         this.numberofWheels = numberofWheels;
         this.color = color;
@@ -13,6 +20,7 @@ public class Vehicle {
         this.fuelftype = fuelftype;
     }
 
+    // Getters and Setters
     public int getNumberofWheels() {
         return numberofWheels;
     }
@@ -44,4 +52,5 @@ public class Vehicle {
     public void setFuelftype(String fuelftype) {
         this.fuelftype = fuelftype;
     }
+
 }

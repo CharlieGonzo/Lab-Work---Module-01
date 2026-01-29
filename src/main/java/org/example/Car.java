@@ -40,6 +40,7 @@ public class Car extends Vehicle{
                 ", color='" + color + '\'' +
                 ", engineSize=" + engineSize +
                 ", fuelftype='" + fuelftype + '\'' +
+                ", Brand='" + brand + '\'' +
                 '}');
     }
 

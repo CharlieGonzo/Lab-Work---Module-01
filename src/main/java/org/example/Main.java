@@ -1,5 +1,7 @@
 package org.example;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * @author Charles Gonzalez
  * This application is for the lab 1 assigment in class CSC 311
@@ -11,4 +13,7 @@ public class Main {
 
 
     }
+
+    @Test
+    public void testVehicle(){}
 }
