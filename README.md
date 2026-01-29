@@ -6,5 +6,5 @@ This assignment showcase basic inhertance in Java,
 ## If you want to try testing...
 I added JUNIT5 to this project for self learning purposes. If you want to try it, run this command in **Command Prompt**
 ```
-mvn test
+.\mvnw test
 ```
